@@ -4,7 +4,7 @@ from datetime import datetime
 db_config={
     'host':'localhost',
     'user':'root',
-    'password':'Varsha@123',
+    'password':'',
     'database':'FaceAttendance'
 }
 
