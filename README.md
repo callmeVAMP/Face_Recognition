@@ -30,11 +30,6 @@ A Python-based smart attendance system that uses real-time face recognition to a
 
 ---
 
-## 📸 Screenshots
-
-> (You can add screenshots here if you want, like GUI form or live recognition window)
-
----
 
 ## 📁 Project Structure
 
