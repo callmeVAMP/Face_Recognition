@@ -1,0 +1,25 @@
+CREATE DATABASE FaceAttendance;
+
+USE FaceAttendance;
+
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    roll_no VARCHAR(20) UNIQUE,
+    image_path VARCHAR(255)
+);
+
+CREATE TABLE attendance (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT,
+    date DATE,
+    time TIME,
+    FOREIGN KEY (student_id) REFERENCES students(id)
+);
+
+
+env=face_env
+
+to locate GLIBCXX_3.4.32
+
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6
